@@ -3,6 +3,7 @@ import { Button } from "./components/ui/button"
 import Header from "./components/ui/header"
 import Home from "./pages/home"
 import Shop from "./pages/shop"
+import Cartpage from "./pages/cartpage"
 
 function App(){
   return <>
@@ -10,6 +11,7 @@ function App(){
   <Routes>
     <Route path="/" element={<Home/>}  ></Route>
     <Route path="/shop" element={<Shop/>}  ></Route>
+    <Route path="/cartpage" element={<Cartpage/>}  ></Route>
   </Routes>
   
   </>
